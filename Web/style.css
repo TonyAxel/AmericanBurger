@@ -1,0 +1,480 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(Femaly/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Bebas Neue;
+    src: url(Femaly/BebasNeue-Bold.ttf);
+}
+@font-face {
+    font-family: Bebas Neue Regular;
+    src: url(Femaly/BebasNeue\ Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat Regular;
+    src: url(Femaly/Montserrat-Regular.ttf);
+}
+body{
+    max-width: 1503px;
+    margin: auto;
+}
+.scrol-one{
+    background: url(back/Rectangle.png) no-repeat;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    background-size:cover;
+    padding: 62px 56px 117px 59px;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    margin-top: -8px;
+}
+.burger-week{
+    display: block;
+    max-width: 600px;
+}
+.good-time{
+    margin-top: 174px;
+    display: flex;
+    width: 404px;
+    font-size: 23px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border: 2px dashed #3D2514;
+    font-family: Bebas Neue;
+    color: #3D2514;
+}
+.burger{
+    font-family:Bebas Neue Regular;
+    line-height: 0;
+    font-weight: 100;
+    font-size: 114px;
+    width: 404px;
+    letter-spacing: 30px;
+    text-shadow:4px 5px 0px #FEE8BC;
+    color: #3D2514;
+}
+.week{
+    font-family:Bebas Neue Regular;
+    line-height: 15px;
+    margin-left: 2px;
+    font-weight: 100;
+    font-size: 57px;
+    width: 404px;
+    letter-spacing: 30px;
+    text-shadow:4px 5px 0px #FEE8BC;
+    color: #3D2514;
+}
+
+.number-img{
+    height: 32px;
+    display: flex;
+    margin-left: 120px;
+}
+.number-img img{
+    margin-top: -8px;
+    width: 41px;
+}
+.number{
+    font-family:Montserrat;
+    font-size: 17px;
+    margin: 0 0 0 20px;
+    color: #3D2514;
+}
+li{
+    list-style-type: none;
+    
+}
+ul{
+    display: flex;
+    padding: 0;
+    font-family: Bebas Neue;
+    font-size: 21px;
+    margin: 21px 0 0 0px;
+}
+.h{
+    margin-right: 80px;
+}
+.h2{
+    margin: 0 82px;
+}
+.cocacola{
+    background-position: left;
+    display: flex;
+}
+.eat{
+    margin-left: -600px;
+    z-index: 0;
+    margin-top: 198px;
+    display: flex;
+    width: 425px;
+    height: 369px;
+}
+.drink img{
+    margin-top: 72px;
+    margin-left: -80px;
+    width: 172px;
+    height: 480px;
+}
+.french img{
+    z-index:0;
+    margin-top: 143px;
+    margin-left: -250px;
+    width: 220px;
+    height: 326px;
+}
+.glow{
+    z-index: -1;
+    width: 800px;
+    height: 800px;
+    margin-top: -150px;
+    margin-left: -350px;
+}
+.shadow{
+    margin-top: -55px;
+    margin-left: 90px;
+    width: 380px;
+    height: 38px;
+}
+.shadow-burger{
+    margin-top: -20px;
+    margin-left: -210px;
+    width: 541px;
+    height: 54px;
+}
+.radius-salle{
+    position: relative;
+    display: flex;
+    margin-top:-230px;
+    margin-left:-290px;
+    width: 173px;
+    height: 173px;
+    background-color: red;
+    z-index:11;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-family: Bebas Neue;
+}
+#span-salle{
+    font-size: 69px;
+}
+#span-cent{
+    padding-left: 0px;
+    font-size: 30px;
+    padding-top: 30px;
+}
+#span-only{
+    padding-left: 8px;
+    font-size: 33px;
+    letter-spacing: 12px;
+}
+.r-s{
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    width: 100px;
+    border: 2px dashed #ffffff;
+    border-radius: 50%;
+}
+.img-two-burger img{
+    margin-top: 80px;
+    width: 546px;
+    height: 420px;
+}
+.free-burger img{
+    margin-top: 80px;
+    width: 596px;
+    height: 192px;
+}
+.four-burger img{
+    margin-top: 32px;
+    width: 596px;
+    height: 192px;
+}
+.scrol-two{
+    color: white;
+    font-family: Bebas Neue;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.free-four-burger{
+    margin-left: 36px;
+}
+.scrol-two span{
+    font-size: 42px;
+}
+.img-two-burger p {
+    margin-left: 25px;
+    margin-top: 99px;
+}
+.scrol-two p{
+    position: absolute;
+}
+.free-burger p {
+    margin-left: 20px;
+    margin-top: 99px;
+}
+.four-burger p{
+    margin-left: 20px;
+    margin-top: 49px;
+}
+.burgers-dolor{
+    display: flex;
+    margin-top: 36px;
+    justify-content: space-evenly;
+    padding-left: 65px;
+}
+.lp1 img{
+    width: 342px;
+    height: 271px;
+}
+.lp2 img{
+    width: 349px;
+    height: 303px;
+}
+.eat-burger{
+    display: flex;
+    justify-content: center;
+    margin-top: 66px;
+}
+.e-b{
+    background-color: #FFC045; 
+    width: 218px;
+    height: 48px;
+    font-family: Bebas Neue;
+    font-size: 25px;
+    line-height: 45px;
+    text-align: center;
+}
+.che{
+    text-align: center;
+    font-family: Bebas Neue Regular;
+    font-size: 50px;
+    margin-top: 22px;
+}
+.description{
+    margin-top: 16px;
+    text-align: center;
+    font-family: Montserrat Regular;
+    font-size: 17px;
+}
+.lp1{
+    margin-left: 26px;
+    margin-top: 32px;
+}
+#sh1{
+    margin-left: -70px;
+    width: 544px;
+    height: 55px;
+}
+#sh2{
+    margin-left: -90px;
+    width: 544px;
+    height: 55px;
+}
+#sh3{
+    margin-left: -60px;
+    width: 504px;
+    height: 55px;
+}
+.burgers-dolor h1{
+    font-family: Bebas Neue;
+    font-size: 37px;
+}
+.lp1 h1{
+    margin-left: 80px;
+}
+.lp2 h1{
+    margin-left: 70px;
+}
+.lp1 p{
+    font-family: Montserrat Regular;
+    text-align: center;
+    margin-left: -110px;
+}
+.lp2 p {
+    font-family: Montserrat Regular;
+    text-align: center;
+    margin-left: -120px;
+}
+.but{
+    background-color: #BF2222;
+    width: 195px;
+    height: 57px;
+    font-family: Bebas Neue Regular;
+    font-size: 26px;
+    margin-left: 90px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+}
+.lp2 .but{
+    margin-left:80px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    color: white;
+}
+.text-img{
+    margin-right: 68px;
+    margin-left: 78px;
+    display: flex;
+    margin-top: 131px;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.3);
+}
+.img{
+    margin: 6px 16px 20px 0;
+    width: 699px;
+    height: 466px;
+}
+.text-slaid{
+    margin: 58px 0 0 100px;
+    max-width: 542px;
+}
+.text-slaid h1{
+    font-size: 30px;
+    font-family: Bebas Neue;
+}
+.text-slaid .UE{
+    font-size: 41px;
+    font-family:Bebas Neue Regular;
+    line-height: 1px;
+}
+.text-slaid p {
+    font-family: Montserrat Regular;
+    font-size: 21px;
+    line-height: 30px;
+}
+.text-slaid img{
+    margin-top: 51px;
+}
+
+.reservation{
+    margin-top: 72px;
+}
+.img-h{
+    display: flex;
+    justify-content: space-between;
+}
+.res-h h1{
+    font-family: Bebas Neue;
+    font-size: 29px;
+    text-align: center;
+}
+.res-h p{
+    font-family: Bebas Neue Regular;
+    font-size: 70px;
+    text-align: center;
+}
+.reg{
+    display: flex;
+    margin-top: 23px;
+}
+.reg-reg{
+    display: flex;
+}
+.reg input[type=text]{
+    width: 379px;
+    height: 65px;
+    margin-bottom: 27px;
+    margin-right: 27px;
+    border-radius: 7px;
+    text-indent: 20px;
+    padding-top: 5px;
+    outline: none;
+    font-size: 25px;
+}
+.bottle{
+    margin-left: 170px;
+}
+.reg-input{
+    display: flex;
+    margin-left: 70px;
+    
+}
+.ndp{
+    display: flex;
+    flex-direction: column;
+}
+.etb{
+    display: flex;
+    flex-direction: column;
+}
+.reg-img{
+    margin-left: 50px;
+}
+.etb-b{
+    width: 389px;
+    height: 70px;
+    border-radius: 7px;
+    background-color: #BF2222;
+    color: white;
+    font-size: 25px;
+    font-family: Bebas Neue Regular;
+}
+.reg input::-webkit-input-placeholder { color:#000; font-family: Bebas Neue Regular; font-size: 25px;}
+.reg input::-moz-placeholder { color:#000; font-family: Bebas Neue Regular; font-size: 25px;}
+.reg input:-ms-input-placeholder { color:#000; font-family: Bebas Neue Regular; font-size: 25px;}
+.reg input:-moz-placeholder { color:#000; font-family: Bebas Neue Regular; font-size: 25px;}
+
+.hoter{
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+}
+.hut-img{
+    background-color: #707070;
+    width: 1389px;
+    height: 525px;
+    margin-bottom: 57px;
+}
+.hut-h{
+    margin-top: 84px;
+    margin-left: 43px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.inf-ul{
+    flex-direction: column;
+}
+.info p{
+    margin-left: 49px;
+    width: 520px;
+    font-family:Montserrat Regular;
+    font-size: 17px;
+    margin-top: 42px;
+}
+.inf-ul li{
+    font-family: Bebas Neue;
+    font-size: 21px;
+    margin-bottom: 10px;
+    margin-right: 120px;
+}
+.inf-ul img{
+    margin-right: 20px;
+}
+.hoter-end{
+    display: flex;
+    margin-top: 131px;
+    justify-content: space-between;
+}
+.company{
+    font-family: Bebas Neue Regular;
+    font-size: 17px;
+    margin-left: 49px;
+}
+.mes{
+    margin-right: 30px;
+}
